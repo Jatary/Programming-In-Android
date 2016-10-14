@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestLayout</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_Welcome">Welcome!!!</string>
+     <string name="one">1</string>
+
+</resources>

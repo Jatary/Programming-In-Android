@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecondService</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_service">MyService</string>
+    <string name="start">启动Sercice</string>
+    <string name="stop">停止Sercice</string>
+    <string name="bind">绑定Sercice</string>
+    <string name="unbind">解绑Sercice</string>
+    <string name="getData">获取数据</string>
+    <string name="title_activity_aidlservice">AIDLService</string>
+    <string name="title_activity_aidlserver">AIDLServer</string>
+    <string name="title_activity_aidlclient">AIDLClient</string>
+    <string name="getData1">获取其他应用信息</string>
+    <string name="name">歌曲名：</string>
+    <string name="author">演唱者：</string>
+    <string name="btn">跳转</string>
+    <string name="title_activity_tiao_zhuan">TiaoZhuan</string>
+
+</resources>

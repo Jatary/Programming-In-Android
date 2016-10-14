@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServicePlayTwo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnWelcome">点击</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btnplay">播放</string>
+    <string name="btngo">跳转</string>
+    <string name="btnnext">下首</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="change">变</string>
+    <string name="back">返回</string>
+
+</resources>

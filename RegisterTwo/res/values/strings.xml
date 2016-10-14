@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RegisterTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">欢迎注册</string>
+    <string name="name">用户名：</string>
+    <string name="tishi1">不能为空</string>
+    <string name="psd">密码：</string>
+    <string name="tishi2">6~15位</string>
+    <string name="psd1">确认密码：</string>
+    <string name="gender">性别：</string>
+    <string name="male">男</string>
+    <string name="famale">女</string>
+    <string name="cityBtn">所在地：</string>
+    <string name="city">城市</string>
+    <string name="registerBtn">注册</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_choose_city">ChooseCityActivity</string>
+
+</resources>

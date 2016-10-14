@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicActivity" >
+
+    <RelativeLayout
+        android:id="@+id/ListLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/rlLayoutTop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <RelativeLayout            
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dip"
+	        android:background="@drawable/title_bk" >
+		        <ImageButton
+		        	android:id="@+id/btn_music_back"
+		        	android:layout_marginLeft="10dp"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/btn_back_selector"
+		            android:src="@drawable/btn_back" />
+		
+		        <View
+		            android:id="@+id/line0"
+		            android:layout_width="1dp"
+		            android:layout_height="fill_parent"
+		      
+		            android:background="#aa11264f" />
+		
+		        <View
+		            android:layout_width="1dp"
+		            android:layout_height="fill_parent"
+		            android:layout_toRightOf="@id/line0"
+		            android:background="#009ad6" />
+		
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerInParent="true"
+		            android:text="音乐播放界面"
+		            android:textColor="#FFFFFF"
+		            android:textSize="20sp" />
+	    	</RelativeLayout>
+	   
+        	<LinearLayout
+        	    android:id="@+id/llButtonGroup"
+	            android:layout_width="match_parent"
+	            android:layout_height="35dip"
+	            android:background="@drawable/button_group_bg"
+	            android:orientation="horizontal" >
+		        <Button
+            		android:id="@+id/previous_music"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_alignParentLeft="true"
+            		android:background="@drawable/previous_music_selector" />
+
+		        <Button
+		            android:id="@+id/repeat_music"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@id/previous_music"
+		            android:background="@drawable/repeat_none_selector" />
+		
+		        <Button
+		            android:id="@+id/play_music"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@id/repeat_music"
+		            android:background="@drawable/pause_selector" />
+		
+		        <Button
+		            android:id="@+id/shuffle_music"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@id/play_music"
+		            android:background="@drawable/shuffle_none_selector" />
+		
+		        <Button
+		            android:id="@+id/next_music"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:background="@drawable/next_music_selector" />
+	        </LinearLayout>
+        </LinearLayout>        
+	    
+		<ListView
+        	android:id="@+id/lvMusicList"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/rlLayoutTop"
+        	android:layout_marginBottom="86dp">
+    	</ListView>
+        
+    </RelativeLayout>
+
+    <com.example.demoservicemusic.widget.MySlidingDrawer  
+	android:id="@+id/slidingDrawer"
+	android:layout_width="fill_parent"  
+	android:layout_height="fill_parent"  
+    android:handle="@+id/handle"  
+	android:content="@+id/content"
+	android:topOffset="10dp">  	  
+			<include layout="@layout/sliderdrawer_handle_layout"></include>		
+		   	<include layout="@layout/sliderdrawer_content_layout"></include>	
+     </com.example.demoservicemusic.widget.MySlidingDrawer>
+</RelativeLayout>

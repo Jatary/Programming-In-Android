@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+       
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="397dp"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false" />
+
+    <ImageButton
+        android:id="@+id/LastImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="409dp"
+        android:src="@drawable/pr" />
+
+    <ImageButton
+        android:id="@+id/StartImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="409dp"
+        android:src="@drawable/start" />
+
+    <ImageButton
+        android:id="@+id/NextImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="248dp"
+        android:layout_y="409dp"
+        android:src="@drawable/ne" />
+
+    <ImageButton
+        android:id="@+id/StopImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="409dp"
+        android:src="@drawable/stop" />
+
+    <ImageButton
+        android:id="@+id/PauseImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="409dp"
+        android:src="@drawable/pu" />
+
+</AbsoluteLayout>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jxsd2"
+
+    tools:context=".LoginActivity" >
+
+          <TextView
+              android:id="@+id/tv_psd"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/et_psd"
+              android:layout_alignBottom="@+id/et_psd"
+              android:layout_alignRight="@+id/tv_name"
+              android:text="@string/psd" />
+
+          <TextView
+              android:id="@+id/tv_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/et_name"
+              android:layout_alignBottom="@+id/et_name"
+              android:layout_toLeftOf="@+id/et_name"
+              android:text="@string/name" />
+
+          <EditText
+              android:id="@+id/et_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_above="@+id/et_psd"
+              android:layout_alignLeft="@+id/et_psd"
+              android:layout_marginBottom="33dp"
+              android:ems="10" />
+
+          <Button
+              android:id="@+id/login"
+              android:layout_width="60dp"
+              android:layout_height="60dp"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginBottom="181dp"
+              android:text="@string/login" />
+
+          <EditText
+              android:id="@+id/et_psd"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_above="@+id/login"
+              android:layout_alignParentRight="true"
+              android:layout_marginBottom="19dp"
+              android:layout_marginRight="32dp"
+              android:ems="10" />
+
+"
+
+
+</RelativeLayout>
