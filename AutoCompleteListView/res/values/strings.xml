@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoCompleteListView</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="hint">请选择你所喜欢的书籍</string>
+     <string-array name="books">
+        <item> Android开发之旅</item>
+        <item> Android开发案例</item>
+        </string-array>
+
+</resources>
