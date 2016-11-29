@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome1">
+
+    <TextView
+        android:id="@+id/tvwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="江西师范大学"
+        android:typeface="monospace"
+        android:textStyle="italic"
+        android:textColor="#cc0000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvwelcome"
+        android:layout_marginRight="53dp"
+        android:layout_marginTop="162dp"
+        android:text="跳过" />
+
+    <Button
+        android:id="@+id/btngo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnpass"
+        android:layout_alignBottom="@+id/btnpass"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="54dp"
+        android:text="登陆" />
+
+</RelativeLayout>

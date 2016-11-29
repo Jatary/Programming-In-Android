@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">"
+
+        <ImageView
+            android:id="@+id/imageshida"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/sousuo"
+            android:scaleType="fitXY"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/imageshida" />
+
+        <ImageView
+            android:id="@+id/sousuo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/sousuo2" />
+
+    </RelativeLayout>
+    
+        <ImageView
+                android:id="@+id/shida1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:src="@drawable/shida1" />
+    
+
+    <FrameLayout
+        android:id="@+id/fMain"
+        android:layout_width="match_parent"
+        
+        android:layout_height="390dp">
+       
+       
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment">
+
+        <LinearLayout
+            android:id="@+id/layout_zixun"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivzixun"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+             
+                android:src="@drawable/information" />
+            <TextView
+                android:id="@+id/tvzixun"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+               
+                android:text="时讯"/>"
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_shetuan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivshetuan"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/club" />
+             <TextView
+                android:id="@+id/tvshetuan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+               
+                android:text="社团"/>
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_xuexi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivxuexi"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/study" />
+             <TextView
+                android:id="@+id/tvxuexi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+               
+                android:text="学习"/>
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_tonggao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivtonggao"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/show" />
+             <TextView
+                android:id="@+id/tvtonggao"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+               
+                android:text="通告"/>
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_wo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivwo"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:gravity="right"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/mine" />
+             <TextView
+                android:id="@+id/tvwo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+               
+                android:text="我"/>
+            
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
